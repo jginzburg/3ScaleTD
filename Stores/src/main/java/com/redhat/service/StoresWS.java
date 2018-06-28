@@ -27,7 +27,12 @@ public class StoresWS implements Stores {
 
 	@Override
 	public Store getStore(int storeID) {
-		return storeDAO.getStoreById(storeID);
+	//	return storeDAO.getStoreById(storeID);
+	        Store s = new Store();
+		s.setStoreID(storeID);
+		s.setStoreLat(2.0);
+		s.setStoreName("Store"+storeID);
+		return s;
 	}
 
 	@Override
