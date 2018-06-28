@@ -32,7 +32,7 @@
       "name": "GIT_REPO",
       "displayName": "Git Repository URL",
       "required": true,
-      "value": "https://github.com/pszuster/3ScaleTD.git",
+      "value": "https://github.com/jginzburg/3ScaleTD.git",
       "description": "The URL of the repository with your application source code."
     },
     {
