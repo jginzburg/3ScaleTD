@@ -38,7 +38,8 @@ public class StoresWS implements Stores {
 	@Override
 	public StoresType getAllStores() {
 		StoresType st = new StoresType();
-		st.store = storeDAO.getAll();
+		st.getStore().add(getStore(1));
+//		st.store = storeDAO.getAll();
 		return st;
 	}
 
